@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:padding="1dp"
+        android:src="@drawable/chatt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chatt"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textFontWeight="60"
+        android:textColor="#08973b" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple mobile chat and notes."
+        android:textSize="15sp"
+        android:textColor="#08973b"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="1dp">
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:background="#2f6097"
+            android:paddingTop="5sp"
+            android:text="Sign in with"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:drawableRight="@drawable/fb2"
+            android:layout_margin="5dp"></Button>
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:background="#28abec"
+            android:text="Sign in with"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:drawableRight="@drawable/tw"
+            android:layout_margin="5dp"></Button>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="#d2d1d1"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:background="#d2d1d1"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="#08973b"
+        android:layout_marginBottom="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Log in"
+        android:textStyle="bold"
+        android:textFontWeight="5"
+        android:textSize="15sp"
+        android:textColor="#08973b"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="I've forgotten my password?"
+        android:textSize="15sp"/>
+
+</LinearLayout>
+
+</LinearLayout>
